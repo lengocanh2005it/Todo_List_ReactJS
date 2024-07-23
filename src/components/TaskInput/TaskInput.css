@@ -1,0 +1,49 @@
+.task-input-container {
+  position: relative;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.task-input-container .input-control {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.task-input-container .input-control .label-input {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.1rem;
+}
+
+.task-input-container .input-control .label-input i {
+  font-size: 1.5rem;
+}
+
+.task-input-container .input-control .label-input label {
+  font-size: 1rem;
+  color: #525151;
+}
+
+.task-input-container .input-control textarea {
+  border: 1px solid #cdcccc;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  height: 150px;
+  resize: none;
+}
+
+.task-input-container .input-control textarea:hover {
+  border: 1px solid #929191;
+}
+
+.task-input-container .input-control textarea:focus {
+  border: 1px solid #4f4f4f;
+}
